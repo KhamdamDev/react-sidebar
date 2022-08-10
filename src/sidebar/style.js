@@ -69,11 +69,12 @@ const Sidebarmini = styled.div`
                     transition: 0.5s;
                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                     :hover{
-                        border: 1px solid white;
+                        border-right: 1px dotted yellowgreen;
                         height: 35px;
                         padding-left: 10px;
                         color: yellowgreen;
                         transition: 0.5s;
+                        color: yellowgreen;
                     }
                 }
                 :hover{
@@ -329,7 +330,6 @@ const SidebarCon = styled.div`
                 cursor: pointer;
                 :hover{
                     transition: 0.5s;
-                    border: 1px solid whitesmoke;
                     margin-left: 7px;
                 }
                 :hover h4{
